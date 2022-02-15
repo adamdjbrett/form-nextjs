@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.section {
+  position: relative;
+  padding-bottom: 3.33333rem;
+  padding-top: 3.33333rem;
+  width: 100%;
+  background: black;
+}
+.main-background {
+  background-image: url("https://themes.stackbit.com/demos/podcaster/images/pattern.svg");
+  opacity: 0.98;
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: center center;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main-container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 11;
+}
+.flex-container {
+  display: flex;
+}
+.flex-1 {
+  flex: 1;
+  padding: 0 16px;
+}
+
+.title {
+  font-size: 2.22222em;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.25em;
+  color: #fff;
+}
+.desc {
+  color: #fff;
+  line-height: 1.66667;
+  margin-bottom: 1em;
+}
+
+.contact-form {
+  background-color: #1b2025;
+  border-color: #2c343c;
+  border-width: 2px;
+  border: 1px solid #eceef1;
+  padding: 2.22222rem;
+  color: #fff;
+}
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.83333rem;
+}
+.form-group {
+}
+.input-lable {
+  font-size: 0.88889em;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 0.3em;
+}
+.input-field {
+  background: #fff;
+  border-color: transparent;
+  color: #2c343c;
+  border: 1px solid #eceef1;
+  border-radius: 0;
+  box-shadow: none;
+  color: #2c343c;
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  max-width: 100%;
+  padding: 0.6875em;
+  width: 100%;
+  margin-top: 0.3em;
+}
+.btn {
+  align-items: center;
+  background-color: #45515e;
+  border: 0;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 0.88889em;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.25;
+  min-width: 10em;
+  padding: 0.75em 1.875em;
+  text-decoration: none;
+  transition: 0.25s ease;
+  white-space: nowrap;
+}
+.btn-primary {
+  background-color: #ec5033;
+  box-shadow: 0.375em 0.375em 0 0 #343e47;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 0 0 #343e47;
+  -webkit-transform: translate(0.375em, 0.375em);
+  transform: translate(0.375em, 0.375em);
+}
+
+.btn-wrapper {
+  margin-top: 1.11111rem;
+}
+.form-checkbox {
+  position: relative;
+  margin-top: 0.83333rem;
+}
+.checkbox-lable {
+  padding-left: 1.5em;
+}
