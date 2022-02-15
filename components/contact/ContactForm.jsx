@@ -14,12 +14,11 @@ const ContactForm = () => {
           <div className="flex-1">
             <div className="contact-form">
               <form
-                name="contact"
+                name="contact-form-nextjs"
                 method="POST"
                 netlify-honeypot="bot-field"
                 data-netlify="true"
                 netlify="true"
-                action="https://podcast.doctrineofdiscovery.org/thank-you"
               >
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="form-content">
