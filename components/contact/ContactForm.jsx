@@ -17,6 +17,7 @@ const ContactForm = () => {
                 name="contact-form-nextjs"
                 method="POST"
                 netlify-honeypot="bot-field"
+                action="https://podcast.doctrineofdiscovery.org/thank-you"
                 data-netlify="true"
                 netlify="true"
               >
